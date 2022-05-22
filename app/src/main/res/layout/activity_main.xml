@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activity_A"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/main_BTN_openB"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="open B"/>
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/main_BTN_startService"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="start service"/>
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/main_BTN_stopService"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="stop service"/>
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/main_BTN_checkService"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="check service"/>
+
+    <com.google.android.material.textview.MaterialTextView
+        android:id="@+id/main_LBL_info"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="30sp"
+        android:textColor="#000000"
+        android:text="Hello World!" />
+
+</androidx.appcompat.widget.LinearLayoutCompat>
